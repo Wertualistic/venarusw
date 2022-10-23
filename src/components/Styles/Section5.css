@@ -1,0 +1,142 @@
+#section5 {
+    background-image: url(../imgs/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.style{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.first {
+    background: linear-gradient(179.96deg, rgba(71, 9, 62, 0.9) -0.95%, rgba(71, 9, 62, 0) 99.97%), url(../imgs/first.png);
+    background-size: cover;
+    width: 260px;
+    height: 450px;
+    background-repeat: no-repeat;
+    margin-top: 250px;
+}
+
+.second {
+    background: linear-gradient(179.96deg, rgba(71, 9, 62, 0.9) -0.95%, rgba(71, 9, 62, 0) 99.97%), url(../imgs/second.png) center;
+    width: 260px;
+    height: 260px;
+    background-repeat: no-repeat;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.third {
+    background: linear-gradient(179.96deg, rgba(71, 9, 62, 0.9) -0.95%, rgba(71, 9, 62, 0) 99.97%), url(../imgs/third.png) center;
+    width: 260px;
+    height: 260px;
+    background-repeat: no-repeat;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.fourth{
+    background-color: #47093E;
+    width: 550px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#section5 .btn{
+    margin-left: 400px;
+    margin-top: 100px;
+    border: 1px solid #47093E;
+    color: #47093E;
+}
+
+#section5 .btn:hover{
+    color: white;
+    background: #47093E;
+}
+
+@media (max-width: 1100px) {
+    #section5{
+        width: 100%;
+        margin-top: 0 !important;
+        margin-right: 200px !important;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+    }
+    #section5 h1{
+        font-size: 30px;
+    }
+
+    #section5 p{
+        margin-left: 15px;
+        margin-top: 50px;
+        color: #000 !important;
+        padding-top: 50px !important;
+    }
+    #section5 .col-md-9{
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #section5 .first{
+        width: 500px;
+        height: 200px;
+        margin-top: 50px;
+    }
+    #section5 .second{
+        width: 235px;
+        height: 235px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    #section5 .third{
+        width: 235px;
+        height: 235px;
+        margin-top: 30px;
+    }
+    #section5 .fourth{
+        width: 500px;
+        height: 200px;
+        margin-left: 0;
+    }
+    #section5 .btn{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 850px) {
+    #section5 .col-md-9{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #section5 .col-md-6{
+        display: flex;
+        flex-direction: column;
+    }
+    #section5 .first{
+        width: 235px;
+        height: 235px;
+    }
+    #section5 .second{
+        width: 235px;
+        height: 235px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    #section5 .third{
+        width: 235px;
+        height: 235px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    #section5 .fourth{
+        width: 235px;
+        height: 235px;
+        margin-left: 0;
+    }
+}
